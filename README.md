@@ -1,5 +1,7 @@
 # UltraPaste for AviUtl2
 
+[English](README.md) | [中文](README_zh.md)
+
 AviUtl2 `.aux2` general plugin that imports REAPER clipboard data into the timeline.
 
 > **Status**: Early alpha. REAPER clipboard only. Expect bugs.

@@ -1,5 +1,7 @@
 # UltraPaste for AviUtl2
 
+[English](README.md) | [中文](README_zh.md)
+
 将 REAPER 剪贴板数据导入 AviUtl2 时间轴的 `.aux2` 泛用插件。
 
 > **状态**: 早期测试阶段，仅支持 REAPER 剪贴板。问题较多。
