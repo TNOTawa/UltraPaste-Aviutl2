@@ -15,8 +15,9 @@
 ## 安装
 
 1. 在 [Releases](https://github.com/TNOTawa/UltraPaste-Aviutl2/releases) 下载 `UltraPaste.aux2`
-2. 放入 AviUtl2 的 `exedit2/plugin/` 目录
-3. 重启 AviUtl2
+2. 选择以下方式之一：
+   - 放入 AviUtl2 的 `aviutl2\Plugin` 目录，重启 AviUtl2
+   - 将 `UltraPaste.aux2` 直接拖拽到 AviUtl2 预览窗口中
 
 ## 使用方法
 

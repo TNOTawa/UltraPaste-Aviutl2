@@ -15,8 +15,9 @@ AviUtl2 `.aux2` general plugin that imports REAPER clipboard data into the timel
 ## Install
 
 1. Download `UltraPaste.aux2` from [Releases](https://github.com/TNOTawa/UltraPaste-Aviutl2/releases)
-2. Move it to AviUtl2's `exedit2/plugin/` folder
-3. Restart AviUtl2
+2. Choose one of the following:
+   - Place it in AviUtl2's `aviutl2\Plugin` folder, then restart AviUtl2
+   - Drag and drop `UltraPaste.aux2` directly onto the AviUtl2 preview window
 
 ## Usage
 
