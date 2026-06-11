@@ -1,60 +1,35 @@
-# Visual Studio artifacts
-.vs/
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
 # Build outputs
+[Bb]uild/
 [Bb]in/
 [Oo]bj/
-[Ll]og/
-[Ll]ogs/
-[Bb]uild/
-[Tt]est[Rr]esult*/
-[Rr]elease*/
-[Dd]ebug*/
-[Ll]aunchSettings.json
 
-# NuGet
-packages/
-*.nupkg
-*.snupkg
-project.lock.json
-project.fragment.lock.json
-artifacts/
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
 
-# Cache / temp files
-ipch/
-*.opendb
-*.VC.db
-*.ilk
-*.obj
-*.pch
-*.pdb
-*.cache
-*.tlog
-*.lastcodeanalysissucceeded
-*.lastbuildstate
-*.TMP
-*.tmp
-~$*
+# Plugin binary (published via Releases)
+*.aux2
 
-# Resharper / Rider
-_ReSharper*/
-*.DotSettings.user
-.idea/
-
-# Coverage / analysis
-*.coverage
-*.coveragexml
-*.svclog
-
-# VS Code
+# IDE / Editor
+.vs/
 .vscode/
+.kilo/
+.idea/
+*.suo
+*.user
+*.DotSettings.user
 
 # OS-generated
 .DS_Store
 Thumbs.db
 Desktop.ini
 $RECYCLE.BIN/
+
+# Cache / temp
+*.cache
+*.tlog
+*.tmp
+~$*

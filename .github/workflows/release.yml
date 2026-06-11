@@ -1,0 +1,33 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup MinGW-w64
+        uses: msys2/setup-msys2@v2
+        with:
+          msystem: mingw64
+          install: mingw-w64-x86_64-gcc mingw-w64-x86_64-cmake mingw-w64-x86_64-make
+
+      - name: Configure
+        shell: msys2 {0}
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -G "MinGW Makefiles"
+
+      - name: Build
+        shell: msys2 {0}
+        run: cmake --build build
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: build/UltraPaste.aux2
+          generate_release_notes: true
