@@ -1,5 +1,13 @@
 # UltraPaste for AviUtl2
 
+本项目已归档，功能将于未来合并进 [Autozwj](https://github.com/TNOTawa/AutoZWJ)
+
+以下为原项目的 README.md
+
+---
+
+# UltraPaste
+
 [English](README.md) | [中文](README_zh.md)
 
 AviUtl2 `.aux2` general plugin that imports REAPER clipboard data into the timeline.
